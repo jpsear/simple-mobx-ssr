@@ -8,7 +8,7 @@ module.exports = {
   
   output: {
     path: './build/assets',
-    filename: '[name].js',
+    filename: '[name].js'
   },
 
 	performance: {
@@ -40,7 +40,7 @@ module.exports = {
             {
               loader: 'css-loader',
               query: {
-                localIdentName: '[hash:8]',
+                localIdentName: '[name]-[local]-[hash:base64:9]',
                 modules: true
               }
             },
@@ -53,6 +53,7 @@ module.exports = {
           ]
         })
       },
+
     ]
   },
 

@@ -1,8 +1,7 @@
 import React from 'react'
 import { Route } from 'react-router'
 import Root from '@components/Root/Root'
-import HomePage from './pages/HomePage/HomePage'
-import AnotherPage from './pages/AnotherPage/AnotherPage'
+import { HomePage, AnotherPage } from '@pages'
 
 export default function createRoutes() {
   return (
