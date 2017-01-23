@@ -1,0 +1,56 @@
+@import 'reset';
+@import 'normalize';
+@import 'utils/all';
+@import 'base/all';
+
+$main-text-color: $color-dove-gray;
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: $font-family-vodafone-regular;
+    color: $main-text-color;
+    line-height: $line-height-base;
+}
+
+.container {
+	padding: 0 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+div[data-reactroot] {
+	height: 100%;
+}
+
+*[data-hidden] {
+    background: #E60000;
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    overflow: hidden;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}

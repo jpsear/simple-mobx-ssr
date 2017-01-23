@@ -1,0 +1,15 @@
+%flexer {
+    display: flex;
+}
+
+%no-flexer {
+    display: block;
+}
+
+%no-flexer-element {
+    flex: 0;
+}
+
+%flexer-element {
+    flex: 1;
+}

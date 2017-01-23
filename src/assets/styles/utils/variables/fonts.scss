@@ -1,0 +1,31 @@
+$font-path: "fonts/";
+
+$font-family-vodafone-light: "VodafoneLight";
+$font-path-vodafone-light: $font-path + "vodafone/vodafone-light";
+
+$font-family-vodafone-regular: "VodafoneRegular";
+$font-path-vodafone-regular: $font-path + "vodafone/vodafone-regular";
+
+$font-family-vodafone-regular-bold: "VodafoneRegularBold";
+$font-path-vodafone-regular-bold: $font-path + "vodafone/vodafone-bold";
+
+$font-family-sans-serif: $font-family-vodafone-regular, Helvetica, Arial, sans-serif;
+$font-family-serif: Georgia, "Times New Roman", Times, serif;
+$font-family-monospace: "Fira Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
+
+$font-list-vodafone: ($font-family-vodafone-light, $font-path-vodafone-light),
+                     ($font-family-vodafone-regular, $font-path-vodafone-regular),
+                     ($font-family-vodafone-regular-bold, $font-path-vodafone-regular-bold);
+
+@each $vf-font-family, $vf-font-path in $font-list-vodafone
+{
+    @font-face
+    {
+        font-family: $vf-font-family;
+        src: url($vf-font-path + ".eot");
+        src: url($vf-font-path + ".eot?#ie-fix") format("embedded-opentype"),
+        url($vf-font-path + ".woff") format("woff");
+        font-style: normal;
+        font-weight: 400;
+    }
+}

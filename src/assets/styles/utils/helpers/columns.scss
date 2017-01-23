@@ -1,0 +1,58 @@
+$columns-count-default: 12;
+$columns-widths-delimiter-default: \/ !global;
+
+@mixin columns-classes($breakpoint: false, $columns-count: $columns-count-default, $columns-widths-delimiter: $columns-widths-delimiter-default)
+{
+    @if $breakpoint
+    {
+        @media only screen and (max-width: $breakpoint)
+        {
+            $device: "";
+
+            @if $breakpoint == $breakpoint-tablet
+            {
+                $device: "sm";
+            }
+
+            @if $breakpoint == $breakpoint-desktop
+            {
+                $device: "md";
+            }
+
+            @if $breakpoint == $breakpoint-tv
+            {
+                $device: "lg";
+            }
+
+            @include columns-width($columns-count, $columns-widths-delimiter, "#{$device}-");
+        }
+    }
+    @else
+    {
+        @include columns-width($columns-count, $columns-widths-delimiter);
+    }
+}
+
+@mixin columns-width($columns-count, $columns-widths-delimiter, $device: "")
+{
+    @for $x from 1 through $columns-count
+    {
+        @for $y from 1 through $x
+        {
+            @if ($y == $x and $x != 1) or
+                ($y % 2 == 0 and $x % 2 == 0) or
+                ($y % 3 == 0 and $x % 3 == 0) or
+                ($y % 5 == 0 and $x % 5 == 0)
+            {
+                // do nothing we already have that fraction
+            }
+            @else
+            {
+                &--#{$device}#{$y}#{$columns-widths-delimiter}#{$x}
+                {
+                    width: percentage($y / $x);
+                }
+            }
+        }
+    }
+}

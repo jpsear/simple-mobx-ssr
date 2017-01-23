@@ -1,0 +1,6 @@
+.no-gutter
+{
+    @include no-gutters-classes;
+    @include no-gutters-classes($breakpoint: $breakpoint-desktop);
+    @include no-gutters-classes($breakpoint: $breakpoint-tablet);
+}

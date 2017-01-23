@@ -1,0 +1,12 @@
+$mobile-size: 639px !default;
+$tablet-size: 970px !default;
+$desktop-size: 1844px !default;
+
+//MAP
+$size: (desktop: $desktop-size, tablet: $tablet-size, mobile: $mobile-size);
+
+@mixin media($type) {
+	@media handheld, screen and (max-width: map-get($size, $type)) {
+	    @content;
+	}
+}

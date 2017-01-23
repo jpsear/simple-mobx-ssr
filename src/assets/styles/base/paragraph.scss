@@ -1,0 +1,9 @@
+p {
+    margin: 15px 0;
+}
+
+@media only screen and (max-width: $breakpoint-desktop) {
+    p {
+        margin: 10px 0;
+    }
+}

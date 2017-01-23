@@ -1,0 +1,9 @@
+%add-pointer-events {
+	pointer-events: auto;
+    cursor: default;
+}
+
+%no-pointer-events {
+	pointer-events: none;
+    cursor: not-allowed;
+}

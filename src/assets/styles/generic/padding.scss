@@ -1,0 +1,23 @@
+$padding: 40px;
+
+.vertical {
+	padding-top: $padding;
+	padding-bottom: $padding;
+	padding-left: initial;
+	padding-right: initial;
+}
+
+.horizontal {
+	padding-top: initial;
+	padding-bottom: initial;
+	padding-left: $padding;
+	padding-right: $padding;
+}
+
+.all {
+	padding: $padding;
+}
+
+.remove {
+	padding: 0;
+}

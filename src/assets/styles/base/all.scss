@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+
+    &:focus {
+        outline: 2px solid $color-cerulean;
+    }
+
+    &:active {
+        outline: 0;
+    }
+}
+
+@import "abbreviations";
+@import "anchors";
+@import "blockquote";
+@import "body";
+@import "code";
+@import "fieldset";
+@import "headings";
+@import "img";
+@import "media";
+@import "paragraph";
+@import "small";
+@import "strong";
+@import "table";

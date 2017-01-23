@@ -1,0 +1,8 @@
+.visually-hidden {
+	position: absolute;
+	display: block;
+	height: 0px;
+	width: 0px;
+	visibility: hidden;
+	text-indent: -99999px;
+}

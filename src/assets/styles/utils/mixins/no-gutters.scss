@@ -1,0 +1,59 @@
+@mixin no-gutters-classes($breakpoint: false)
+{
+    @if $breakpoint
+    {
+        @media only screen and (max-width: $breakpoint)
+        {
+            $device: "";
+
+            @if $breakpoint == $breakpoint-tablet
+            {
+                $device: "sm";
+            }
+
+            @if $breakpoint == $breakpoint-desktop
+            {
+                $device: "md";
+            }
+
+            @if $breakpoint == $breakpoint-tv
+            {
+                $device: "lg";
+            }
+
+            @include no-gutters-margin($device: "#{$device}-");
+        }
+    }
+    @else
+    {
+        @include no-gutters-margin;
+    }
+}
+
+@mixin no-gutters-margin($device: "")
+{
+    &--#{$device}all
+    {
+        margin: 0 !important;
+    }
+
+    &--#{$device}top
+    {
+        margin-top: 0 !important;
+    }
+
+    &--#{$device}bottom
+    {
+        margin-bottom: 0 !important;
+    }
+
+    &--#{$device}left
+    {
+        margin-left: 0 !important;
+    }
+
+    &--#{$device}right
+    {
+        margin-right: 0 !important;
+    }
+}

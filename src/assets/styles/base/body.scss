@@ -1,0 +1,32 @@
+body {
+    color: $color-mine-shaft;
+    font-size: 18px;
+    line-height: 1.333;
+    font-family: $font-family-vodafone-regular;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    &::before {
+        content: "desktop";
+        display: none;
+    }
+}
+
+@media only screen and (max-width: $breakpoint-desktop) {
+    body {
+        &::before {
+            content: "tablet";
+        }
+    }
+}
+
+
+@media only screen and (max-width: $breakpoint-tablet) {
+    body {
+        font-size: 16px;
+
+        &::before {
+            content: "mobile";
+        }
+    }
+}
