@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 import { action } from 'mobx'
 import { Link } from 'react-router'
 
-//import { observer } from 'mobx-react'
-//@observer(["state"]) // Only required if you use or change the state outside fetchData
 class HomePage extends Component {
   @action static fetchData({state}) {
-    state.app.title = 'Home'
+    state.app.title = 'Another Page'
   }
   
   render() {
