@@ -34,19 +34,6 @@ module.exports = {
       },
 
       {
-        test: /\.(png|jpg|jpeg|gif)$/,
-        loader: 'url',
-        include: [
-          path.resolve(__dirname, '../src/images'),
-          path.resolve(__dirname, '../src/js')
-        ],
-        query: {
-          limit: 66,
-          name: 'images/[name].[ext]?[hash]'
-        }
-      },
-
-      {
         test: /\.(css|scss)(\?.+)?$/,
         loader: ExtractTextPlugin.extract({
           loader: [

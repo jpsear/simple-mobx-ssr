@@ -7,7 +7,7 @@ import gutters from '@styles/styles.scss';
 class Root extends Component {
   render() {
     return (
-      <div styleName="wrapper">
+      <div>
         {this.props.children}
       </div>
     );
