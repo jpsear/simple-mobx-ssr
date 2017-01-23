@@ -1,0 +1,108 @@
+@import '../../../assets/styles/utils/all';
+
+.heading {
+    display: block;
+    font-family: $font-family-vodafone-regular;
+    font-weight: $font-weight-normal;
+    line-height: $line-height-single;
+    margin: 0;
+    width: 100%;
+    color: $color-mine-shaft;
+
+    &--1 {
+        @include heading-desktop($level: 1);
+
+        @include media('tablet') {
+            @include heading-tablet($level: 1);
+        }
+
+        @include media('mobile') {
+            @include heading-mobile($level: 1);
+        }
+    }
+
+    &--2 {
+        @include heading-desktop($level: 2);
+
+        @include media('tablet') {
+            @include heading-tablet($level: 2);
+        }
+
+        @include media('mobile') {
+            @include heading-mobile($level: 2);
+        }
+    }
+
+    &--3 {
+        @include heading-desktop($level: 3);
+
+        @include media('tablet') {
+            @include heading-tablet($level: 3);
+        }
+
+        @include media('mobile') {
+            @include heading-mobile($level: 3);
+        }
+    }
+
+    &--4 {
+        @include heading-desktop($level: 4);
+
+        @include media('tablet') {
+            @include heading-tablet($level: 4);
+        }
+
+        @include media('mobile') {
+            @include heading-mobile($level: 4);
+        }
+    }
+
+    &--5 {
+        @include heading-desktop($level: 5);
+
+        @include media('tablet') {
+            @include heading-tablet($level: 5);
+        }
+
+        @include media('mobile') {
+            @include heading-mobile($level: 5);
+        }
+    }
+
+    &--6 {
+        @include heading-desktop($level: 6);
+
+        @include media('tablet') {
+            @include heading-tablet($level: 6);
+        }
+
+        @include media('mobile') {
+            @include heading-mobile($level: 6);
+        }
+    }
+}
+
+.light {
+    color: $color-white;
+}
+
+.bold {
+    font-family: $font-family-vodafone-regular-bold;
+}
+
+.thin {
+    font-family: $font-family-vodafone-light;
+    font-weight: $font-weight-light;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}

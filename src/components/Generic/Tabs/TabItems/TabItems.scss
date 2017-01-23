@@ -1,0 +1,43 @@
+@import '../../../../assets/styles/utils/all';
+
+.controls {
+    display: table;
+    margin: 0 auto 25px auto;
+}
+
+.tab {
+    padding: 10px 20px;
+    position: relative;
+    min-width: 100px;
+    display: inline-block;
+    color: $color-dove-gray;
+    letter-spacing: normal;
+    vertical-align: middle;
+    outline: none;
+
+    .primary & {
+        border: 1px solid $color-dusty-gray;
+        margin-left: -1px;
+        margin-bottom: 0;
+        background: #F4F4F4;
+        color: $color-mine-shaft;
+
+        &.active {
+            border-color: $color-mine-shaft;
+            background: $color-mine-shaft;
+            z-index: 1;
+            color: $color-white;
+        }
+    }
+
+    @include media('mobile') {
+        font-size: 16px;
+        display: table-cell;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.secondary {
+    
+}

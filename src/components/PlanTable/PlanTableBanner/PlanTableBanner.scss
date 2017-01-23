@@ -1,0 +1,12 @@
+@import '../../../assets/styles/utils/all';
+
+.banner {
+    width: 100%;
+    display: block;
+    padding: 30px;
+}
+
+.cyan {
+    background-color: $color-blue-lagoon;
+    color: $color-white;
+}

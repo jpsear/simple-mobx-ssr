@@ -1,0 +1,55 @@
+@import '../../../assets/styles/utils/all';
+
+.primary {
+    
+}
+
+.wrapper {
+    background-color: rgba(67,67,67,.9);
+    font-size: 32px;
+    position: fixed;
+    width: 100%;
+
+    @include media('mobile') {
+        display: none;
+    }
+
+    .navigation {
+        &:before, &:after {
+            content: " ";
+            display: table;
+        }
+
+        @include navigationSpring();
+
+        .item {
+            float: left;
+
+            a {
+                color: $color-white;
+
+                &:hover {
+                    background-color: $color-white;
+                    color: $color-mine-shaft;
+                }
+            }
+        }
+
+        .right {
+            float: right;
+        }
+
+        .link {
+            position: relative;
+            display: block;
+            padding: 15px 20px;
+            font-family: $font-family-vodafone-light;
+            font-size: 24px;
+            line-height: $line-height-base;
+        }
+
+        &:after {
+            @extend %clearfix;
+        }
+    }
+}

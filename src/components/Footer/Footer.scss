@@ -1,0 +1,82 @@
+@import '../../assets/styles/utils/all';
+
+$border-color: $color-alto;
+
+.wrapper {
+    color: $color-white;
+    position: relative;
+    overflow: hidden;
+    background-color: $color-mine-shaft;
+}
+
+.content {
+    padding: 20px 0 50px 0;
+}
+
+.menu {
+    @include media('mobile') {
+        display: none;
+    }
+
+    li {
+        margin: 10px 0;
+        padding: 0 10px 0 0;
+
+        a {
+            color: $color-white;
+            font-size: 20px;
+        }
+    }
+}
+
+.submenu {
+    margin: 40px 0;
+
+    @include media('mobile') {
+        text-align: center;
+    }
+
+    a {
+        color: $color-white;
+        font-size: 20px;
+    }
+}
+
+.social {
+    margin: 35px 0 34px 0;
+    color: $color-white;
+
+    @include media('mobile') {
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            display: inline-block;
+            margin-right: 15px;
+
+            @include media('mobile') {
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+
+            a {
+                color: $color-white;
+            }
+        }
+    }
+}
+
+.copyright {
+    font-size: 20px;
+    font-family: $font-family-vodafone-light;
+
+    @include media('mobile') {
+        text-align: center;
+        font-size: 18px;
+        padding: 0 10px;
+    }
+}

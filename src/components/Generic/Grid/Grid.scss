@@ -1,0 +1,44 @@
+@import '../../../assets/styles/utils/all';
+
+.grid {
+	@extend %clearfix;
+
+    display: block;
+    height: 100%;
+    letter-spacing: -.215em;
+    list-style: none;
+    width: 100%;
+}
+
+.row {
+	display: block;
+    width: 100%;
+}
+
+.column {
+	@include columns-classes();
+    @include columns-classes($breakpoint: $breakpoint-desktop);
+    @include columns-classes($breakpoint: $breakpoint-tablet);
+
+    position: relative;
+	display: inline-block;
+    height: 100%;
+    letter-spacing: normal;
+    vertical-align: top;
+}
+
+.vertical {
+    padding: 10px 0;
+}
+
+.horizontal {
+    padding: 0 10px;
+}
+
+.all {
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}

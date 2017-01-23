@@ -1,0 +1,103 @@
+@import '../../../assets/styles/utils/all';
+
+.notification {
+    color: #3D3D3D;
+    background-color: #B3E8EF;
+    border-left: 6px solid #00B0CA;
+    padding: 10px;
+
+    &.success {
+        color: #333;
+        background-color: #C7DCB4;
+        border-left-color: #428600;
+    }
+
+    &.warning {
+        background-color: #FADFB3;
+        border-left-color: #EB9700;
+    }
+
+    &.error {
+        background-color: #F7B1B1;
+        border-left-color: #E60000;
+    }
+
+    &:after {
+        @extend %clearfix;
+    }
+}
+
+.prompt {
+    width: 75%;
+    float: left;
+}
+
+.action {
+    height: 50px;
+    text-align: right;
+    width: 25%;
+    float: left;
+}
+
+.text {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 75px);
+}
+
+.button {
+    display: inline-block;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px 35px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00B0CA;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+    color: $color-white;
+    margin-right: 10px;
+
+    > * {
+        margin: 0 auto;
+        @extend %vertical-align;
+    }
+
+    svg {
+        @extend %vertical-align;
+    }
+
+    .success & {
+        background-color: $color-limeade;
+    }
+
+    .warning & {
+        background-color: #EB9700;
+    }
+
+    .error & {
+        background-color: $color-red;
+    }
+}
+
+.holder {
+    @extend %vertical-align;
+}
+
+.link {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: relative;
+
+    &:after {
+        @extend %link-underline;
+    }
+}

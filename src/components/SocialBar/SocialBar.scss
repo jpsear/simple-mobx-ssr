@@ -1,0 +1,26 @@
+@import '../../assets/styles/utils/all';
+
+.social {
+	width: 100%;
+	background-color: $color-wild-sand;
+	border-top: 1px solid $color-silver;
+
+	&:after {
+		@extend %clearfix;
+	}
+}
+
+.link {
+	display: block;
+	float: right;
+	background-color: $color-wild-sand;
+}
+
+.icon {
+	color: $color-dove-gray;
+	padding: 10px 0;
+}
+
+.icons {
+	display: block;
+}

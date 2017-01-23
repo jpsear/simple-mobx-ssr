@@ -1,0 +1,31 @@
+@import '../../../assets/styles/utils/all';
+@import '../../../assets/styles/generic/padding';
+@import '../../../assets/styles/generic/align';
+
+$spring-min-width: 300px;
+$spring-max-width-sm: 400px;
+$spring-max-width-md: 800px;
+$spring-max-width: 1200px;
+
+.spring {
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	min-width: $spring-min-width;
+	max-width: $spring-max-width;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sm {
+	max-width: $spring-max-width-sm;
+}
+
+.md {
+	max-width: $spring-max-width-md;
+}
+
+.lg {
+	max-width: $spring-max-width;
+}

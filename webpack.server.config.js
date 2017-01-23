@@ -38,7 +38,7 @@ module.exports = {
       '@components' : path.resolve(__dirname, 'src/components'),
       '@pages' : path.resolve(__dirname, 'src/pages'),
       '@styles' : path.resolve(__dirname, 'src/assets/styles'),
-      '@images' : path.resolve(__dirname, 'src/assets/images'),
+      '@images' : path.resolve(__dirname, 'build/assets/images'),
     },
     extensions: ['.js', '.jsx', '.json', '.scss']
   },
@@ -70,6 +70,20 @@ module.exports = {
             }
           ]
         })
+      },
+
+      {
+        test: /\.(png|jpg|jpeg|gif)$/,
+        loader: 'url-loader',
+        query: {
+          limit: 66,
+          name: 'images/[name].[ext]?[hash]'
+        }
+      },
+
+      {
+        test: /\.svg$/,
+        loader: 'svg-inline-loader',
       },
 
     ]

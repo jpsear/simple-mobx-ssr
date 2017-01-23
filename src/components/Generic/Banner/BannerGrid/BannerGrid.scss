@@ -1,0 +1,15 @@
+.banner {
+	position: relative;
+	overflow: hidden;
+}
+
+.background {
+	position: relative;
+	z-index: 0;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 50px 10px;
+}

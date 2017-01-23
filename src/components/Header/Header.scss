@@ -1,0 +1,70 @@
+@import '../../assets/styles/utils/all';
+
+$transition: transform .3s ease-out;
+
+.header {
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	transition: $transition;
+}
+
+.header-hidden {
+  composes: header;
+  transform: translateY(-29px);
+}
+
+.brand {
+	float: left;
+	font-family: $font-family-vodafone-light;
+	font-size: 24px;
+}
+
+.brand-link {
+	position: absolute;
+	left: -60px;
+	top: 0;
+	z-index: 2;
+	transition: $transition;
+}
+
+.brand-link-collapsed {
+  composes: brand-link;
+  // transform: translateY(-20px);
+}
+
+.rhombus {
+	background: $color-red;
+	display: block;
+	position: relative;
+	width: 50px;
+	margin: 0 106px;
+	height: 135px;
+
+	&:before, &:after {
+		border: 70px solid transparent;
+		border-top-color: $color-red;
+		display: block;
+		position: absolute;
+		content: "";
+	}
+
+	&:before {
+		border-right-color: #E60000;
+		right: 100%;
+	}
+
+	&:after {
+		border-left-color: #E60000;
+		left: 100%;
+	}
+}
+
+.logo {
+	position: relative;
+	margin-top: -45px;
+	width: 67px;
+	border: none;
+	max-width: 100%;
+	left: 98px; 
+}

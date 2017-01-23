@@ -1,0 +1,74 @@
+@import '../../../assets/styles/utils/all';
+
+.wrapper {
+	color: $color-white;
+	font-size: 32px;
+	position: relative;
+	font-family: $font-family-vodafone-light;
+
+	@include media('mobile') {
+		display: none;
+	}
+}
+
+.spring {
+	@include navigationSpring();
+}
+
+.bar {
+	width: 100%;
+	overflow: hidden;
+	z-index: 1;
+	list-style: none;
+
+	&:before, &:after {
+		content: " ";
+		display: table;
+	}
+}
+
+.type {
+	position: relative;
+	display: inline-block;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	background: 0px 0px;
+
+	&:before, &:after {
+		display: block;
+		position: absolute;
+		top: 0px;
+		bottom: 0px;
+		content: "";
+		background: $color-black;
+	}
+
+	&:before {
+		right: 100%;
+		width: 265px;
+	}
+
+	&:after {
+		left: 100%;
+		width: 100vw;
+	}
+
+  // temporary - remove once we have a proper loop for this.
+	li {
+		float: left;
+		font-size: 24px;
+
+		a {
+			display: block;
+			padding: 3px 20px;
+			font-size: 16px;
+			background-color: $color-black;
+			color: $color-white;
+
+			&.active {
+				background-color: hex-to-rgba($color-tundora, .9);
+			}
+		}
+	}
+}

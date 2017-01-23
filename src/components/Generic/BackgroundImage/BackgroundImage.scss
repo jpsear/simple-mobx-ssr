@@ -1,0 +1,25 @@
+@import '../../../assets/styles/utils/all';
+
+.wrapper {
+	position: absolute;
+    transform: scale(1.1);
+    transition: opacity 1s ease-in,transform 10s ease-in;
+    background-position: center;
+    bottom: 0;
+    background-size: cover;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.hello-title {
+    background-image: url('/assets/images/hello-product-listing.jpg');
+    opacity: .6;
+}
+
+.why-vodafone {
+    background-image: url('/assets/images/background-why-vodafone.jpg');
+    opacity: 1;
+}

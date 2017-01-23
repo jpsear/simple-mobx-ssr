@@ -1,0 +1,55 @@
+@import '../../../assets/styles/utils/all';
+
+.icon {
+    display: block;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+
+    svg {
+        stroke: currentColor;
+        fill: currentColor;
+        width: 100%;
+    }
+}
+
+.small {
+    width: 22px;
+    height: 22px;
+}
+
+.medium {
+    width: 40px;
+    height: 40px;
+}
+
+.large {
+    svg {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+.extra-large {
+    width: 64px;
+    height: 64px;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: $color-wild-sand;
+    display: inline-block;
+    position: relative;
+
+    svg {
+        width: 100%;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+}

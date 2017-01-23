@@ -1,0 +1,74 @@
+@import '../../../assets/styles/utils/all';
+
+@mixin button() {
+    appearance: none;
+    border: 1px solid transparent;
+    color: $color-white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    padding: 11px 37px;
+    text-align: center;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.primary {
+    @include button();
+
+    background-color: $color-red;
+
+    &:hover {
+        background-color: $color-red-berry;
+    }
+
+    &_dark {
+        background-color: $color-guardsman-red;
+    }
+}
+
+.secondary {
+    @include button();
+
+    background-color: $color-dove-gray;
+
+    &:hover {
+        background-color: $color-mine-shaft;
+    }
+
+    &_dark {
+        background-color: $color-silver-chalice;
+        color: $color-mine-shaft;
+
+        &:hover {
+            background-color: $color-silver;
+        }
+    }
+}
+
+.tertiary {
+    @include button();
+
+    background-color: $color-white;
+    border-color: $color-dove-gray;
+    color: $color-dove-gray;
+
+    &:hover {
+        background-color: $color-wild-sand;
+        border-color: $color-mine-shaft;
+        color: $color-mine-shaft;
+    }
+
+    &_dark {
+        &:hover {
+            background-color: $color-wild-sand;
+        }
+
+        &:focus {
+            color: $color-white;
+            background-color: $color-wild-sand;
+        }
+    }
+}

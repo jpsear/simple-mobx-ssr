@@ -1,0 +1,124 @@
+@import '../../../../styles/utils/all';
+
+.card {
+    text-align: left;
+}
+
+.body {
+    background: $color-white;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+.inner {
+	background: $color-white;
+}
+
+.imageFrame {
+	background: $color-wild-sand;
+    padding-bottom: 55%;
+    position: relative;
+}
+
+.image {
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+
+    img {
+    	-webkit-transform: scale(1);
+	    -ms-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: -webkit-transform .3s;
+	    transition: transform .3s;
+    }
+}
+
+.content {
+	padding: 20px;
+}
+
+.controls {
+	text-align: center;
+}
+
+.featured {	
+    color: $color-white;
+    position: absolute;
+    z-index: 1;
+    top: -12px;
+    left: 3px;
+    display: block;
+    padding: 5px 15px;
+
+    &:after {
+    	position: absolute;
+	    line-height: 0;
+	    bottom: -5px;
+	    left: 2px;
+	    height: 0;
+	    width: 0;
+	    display: block;
+	    content: "";
+    	border: 5px solid transparent;
+    	-webkit-transform: rotate(45deg);
+    	-ms-transform: rotate(45deg);
+    	transform: rotate(45deg);
+    }
+}
+
+.promoCyan {
+	background-color: $color-cerulean;
+
+	&:after {
+		border-bottom-color: $color-blue-lagoon;
+	}
+}
+
+.promoPurple {
+	background-color: $color-seance;
+
+	&:after {
+		border-bottom-color: $color-finn;
+	}
+}	
+
+.added {
+	padding-left: 0;
+
+	a {
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+		background-color: $color-limeade;
+
+		&:hover {
+			background-color: $color-limeade;			
+		}
+
+		span {
+			display: inline-block;
+			vertical-align: middle;
+			height: 0px;
+			margin-top: -34px;
+		}
+
+		svg {
+			width: 26px;
+			height: 26px;
+		}
+	}
+}
+
+.remove {
+	padding-right: 0;
+	
+	a {
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+	}
+}

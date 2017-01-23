@@ -1,0 +1,70 @@
+@import '../../assets/styles/utils/all';
+
+.breadcrumbs {
+    background: inherit;
+    border-bottom: 1px solid #CCC;
+    border-top: 1px solid #CCC;
+    padding: 18px 0;
+
+    @include media('mobile') {
+        text-align: center;
+    }
+}
+
+.crumb {
+    margin: 0 5px;
+    position: relative;
+    color: $color-mine-shaft;
+    display: block;
+
+    &:after {
+        content: " ";
+        border-bottom: 1px solid transparent;
+        border-color: inherit;
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        right: 0;
+    }
+}
+
+.list {
+    li {
+        display: inline-block;
+        vertical-align: middle;
+
+        &:last-child .link {
+            
+        }
+    }
+
+    @include media('mobile') {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+}
+
+.text {
+    text-align: right;
+    margin: 0;
+    color: $color-mine-shaft;
+
+    @include media('mobile') {
+        text-align: center;
+    }
+}
+
+.link {
+    position: relative;
+    color: $color-mine-shaft;
+
+    &:after {
+        content: " ";
+        border-bottom: 1px solid transparent;
+        border-color: inherit;
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        right: 0;
+    }
+}
