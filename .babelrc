@@ -1,0 +1,31 @@
+{
+  "presets": [
+    ["es2015"]
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    "transform-flow-strip-types",
+    "transform-react-jsx"
+  ],
+  "env": {
+    "server": {
+      "plugins": [
+        [
+          "transform-es2015-modules-commonjs",
+          "css-modules-transform", {
+            "preprocessCss": "./loaders/sass-loader.js",
+            "generateScopedName": "[hash:8]",
+            "extensions": [".scss"]
+          }
+        ]
+      ]
+    },
+    "production": {
+      "plugins": [
+        "transform-react-remove-prop-types",
+        "transform-react-constant-elements"
+      ]
+    }
+  }
+}

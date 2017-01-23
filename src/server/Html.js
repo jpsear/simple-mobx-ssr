@@ -29,15 +29,21 @@ export default class Html extends React.Component {
 
       /* eslint-disable react/no-danger */
       return (
-        <html>
+        <html lang="">
           <head>
-            <title>SSR</title>
-            <meta charset="utf-8" />
+            <title>{metadata.title}</title>
+            <meta charSet="utf-8" />
+            <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="stylesheet" href="/styles.css" />
+            <meta name="description" content={metadata.description} />
+            <meta name="keywords" content={metadata.keywords} />
+            <link href='/styles.css' rel="stylesheet"/>
+            <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+            <script dangerouslySetInnerHTML={{__html: injected_state}}/>
           </head>
           <body>
-            ARSE
+            <div id="root">{this.props.children}</div>
+            <script src='/bundle.js' />
           </body>
         </html>
       )
