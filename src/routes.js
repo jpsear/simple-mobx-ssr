@@ -1,6 +1,8 @@
 import React from 'react'
 import { Route } from 'react-router'
 import Root from '@components/Root/Root'
+import HomePage from './pages/HomePage/HomePage'
+import AnotherPage from './pages/AnotherPage/AnotherPage'
 
 /**
  * Asynchronously load a file
@@ -22,7 +24,10 @@ function requireAsync(entry) {
 export default function createRoutes() {
   return (
     <Route component={Root}>
-      <Route path="/" getComponent={requireAsync('HomePage')} />
+      <Route path="/" component={HomePage}/>
+      <Route path="about"  component={AnotherPage} />
+      <Route path="browse" getComponent={requireAsync('Browse')} />
+      <Route path="*"      getComponent={requireAsync('NotFound')} />
     </Route>
   )
 }

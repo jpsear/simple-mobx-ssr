@@ -8,7 +8,7 @@ class Root extends Component {
   render() {
     return (
       <div styleName="wrapper">
-        this is the root
+        {this.props.children}
       </div>
     );
   }

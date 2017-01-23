@@ -12,8 +12,7 @@ class HomePage extends Component {
   render() {
     return (
       <section>
-        <h1>Home</h1>
-        <p>Welcome to the fastest website in the universe !</p>
+        <h1>Another Page</h1>
         <Link to="/about">About Us</Link>
       </section>
     )

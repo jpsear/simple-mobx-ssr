@@ -39,10 +39,10 @@ export default class Html extends React.Component {
             <meta name="keywords" content={metadata.keywords} />
             <link href='/styles.css' rel="stylesheet"/>
             <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-            <script dangerouslySetInnerHTML={{__html: injected_state}}/>
           </head>
           <body>
             <div id="root">{this.props.children}</div>
+            <script dangerouslySetInnerHTML={{__html: injected_state}}/>
             <script src='/bundle.js' />
           </body>
         </html>

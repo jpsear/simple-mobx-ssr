@@ -2,14 +2,14 @@ import { observable, toJS } from 'mobx'
 import mergeObservables from './server/helpers/mergeObservables'
 
 // Default state structure
-let defaultState =  observable({
+let defaultState = observable({
     app: {
-        title: 'Mobx Isomorphic Starter',
-        description : 'Here goes description',
-        host: ''
+      title: 'Mobx Isomorphic Starter',
+      description : 'Here goes description',
+      host: ''
     },
     browse: {
-        data : ''
+      data : ''
     }
 })
 
