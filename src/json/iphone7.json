@@ -1,0 +1,313 @@
+{
+    "products": [
+    	{
+            "storage": "32",
+            "colour": "Black",
+            "colour_hex": "232529",
+            "phoneSku": "sku88410",
+            "plan": "<ul>     <li><b>6GB&nbsp;</b>of 4G UK data</li>     <li><strong>Unlimited</strong> UK minutes</li>     <li><strong>Unlimited</strong> UK texts</li>     <li><b>500MB&nbsp;</b>inclusive roaming data</li>      </ul>",
+            "tariff_pm": "47",
+            "tariff_up": "50",
+            "tariff_6m": "23.50",
+            "image": "/cs/groups/public/documents/webcontent/450x370_apple_iphone_7_matt_bl.jpg",
+            "stock": {
+                "stockStatus": "hidden",
+                "stockMessage": "Hidden"
+            },
+            "stockMessage": "",
+            "desktopBundleURL": "http://shop.vodafone.co.uk/shop/pricePlans/plansHome.jsp?dlAction=addDevice&amp;planType=onAccount&amp;bundleSkuItemId=sku48688247&amp;hardwareSkuId=sku88410",
+            "mobileBundleURL": "http://shop.vodafone.co.uk/mshop/contracts-and-deals/apple-iphone-7-32gb/sku88410",
+            "bestPlanURL": "http://shop.vodafone.co.uk/shop/extras/extrasAndAccessories.jsp?dlAction=addDevicePlan&amp;planSkuId=sku109183&amp;bundleSkuId=sku48688247&amp;skuId=sku88410&amp;planType=onAccount&amp;segmentType=consumer",
+            "sashText": "",
+            "lowestPrice": "<p><strong>From &pound;32 a month</strong> with &pound;250 upfront</p>"
+        },
+        {
+            "storage": "32",
+            "colour": "Rose Gold",
+            "colour_hex": "DAADA8",
+            "phoneSku": "sku88432",
+            "plan": "<ul>     <li><b>6GB&nbsp;</b>of 4G UK data</li>     <li><strong>Unlimited</strong> UK minutes</li>     <li><strong>Unlimited</strong> UK texts</li>     <li><b>500MB&nbsp;</b>inclusive roaming data</li>      </ul>",
+            "tariff_pm": "47",
+            "tariff_up": "50",
+            "tariff_6m": "23.50",
+            "image": "/cs/groups/public/documents/webcontent/450x370_apple_iphone_7_rose_go.jpg",
+            "stock": {
+                "stockStatus": "hidden",
+                "stockMessage": "Hidden"
+            },
+            "stockMessage": "",
+            "desktopBundleURL": "http://shop.vodafone.co.uk/shop/pricePlans/plansHome.jsp?dlAction=addDevice&amp;planType=onAccount&amp;bundleSkuItemId=sku48688247&amp;hardwareSkuId=sku88432",
+            "mobileBundleURL": "http://shop.vodafone.co.uk/mshop/contracts-and-deals/apple-iphone-7-32gb/sku88432",
+            "bestPlanURL": "http://shop.vodafone.co.uk/shop/extras/extrasAndAccessories.jsp?dlAction=addDevicePlan&amp;planSkuId=sku109183&amp;bundleSkuId=sku48688247&amp;skuId=sku88432&amp;planType=onAccount&amp;segmentType=consumer",
+            "sashText": "",
+            "lowestPrice": "<p><strong>From &pound;32 a month</strong> with &pound;250 upfront</p>"
+        },
+        {
+            "storage": "32",
+            "colour": "Silver",
+            "colour_hex": "E9E9E9",
+            "phoneSku": "sku88399",
+            "plan": "<ul>     <li><b>6GB&nbsp;</b>of 4G UK data</li>     <li><strong>Unlimited</strong> UK minutes</li>     <li><strong>Unlimited</strong> UK texts</li>     <li><b>500MB&nbsp;</b>inclusive roaming data</li>      </ul>",
+            "tariff_pm": "47",
+            "tariff_up": "50",
+            "tariff_6m": "23.50",
+            "image": "/cs/groups/public/documents/webcontent/450x370_apple_iphone_7_silver.jpg",
+            "stock": {
+                "stockStatus": "hidden",
+                "stockMessage": "Hidden"
+            },
+            "stockMessage": "",
+            "desktopBundleURL": "http://shop.vodafone.co.uk/shop/pricePlans/plansHome.jsp?dlAction=addDevice&amp;planType=onAccount&amp;bundleSkuItemId=sku48688247&amp;hardwareSkuId=sku88399",
+            "mobileBundleURL": "http://shop.vodafone.co.uk/mshop/contracts-and-deals/apple-iphone-7-32gb/sku88399",
+            "bestPlanURL": "http://shop.vodafone.co.uk/shop/extras/extrasAndAccessories.jsp?dlAction=addDevicePlan&amp;planSkuId=sku109183&amp;bundleSkuId=sku48688247&amp;skuId=sku88399&amp;planType=onAccount&amp;segmentType=consumer",
+            "sashText": "",
+            "lowestPrice": "<p><strong>From &pound;32 a month</strong> with &pound;250 upfront</p>"
+        },
+        {
+            "storage": "32",
+            "colour": "Gold",
+            "colour_hex": "E4D8C9",
+            "phoneSku": "sku88421",
+            "plan": "<ul>     <li><b>6GB&nbsp;</b>of 4G UK data</li>     <li><strong>Unlimited</strong> UK minutes</li>     <li><strong>Unlimited</strong> UK texts</li>     <li><b>500MB&nbsp;</b>inclusive roaming data</li>      </ul>",
+            "tariff_pm": "47",
+            "tariff_up": "50",
+            "tariff_6m": "23.50",
+            "image": "/cs/groups/public/documents/webcontent/450x370_apple_iphone_7_gold.jpg",
+            "stock": {
+                "stockStatus": "hidden",
+                "stockMessage": "Hidden"
+            },
+            "stockMessage": "",
+            "desktopBundleURL": "http://shop.vodafone.co.uk/shop/pricePlans/plansHome.jsp?dlAction=addDevice&amp;planType=onAccount&amp;bundleSkuItemId=sku48688247&amp;hardwareSkuId=sku88421",
+            "mobileBundleURL": "http://shop.vodafone.co.uk/mshop/contracts-and-deals/apple-iphone-7-32gb/sku88421",
+            "bestPlanURL": "http://shop.vodafone.co.uk/shop/extras/extrasAndAccessories.jsp?dlAction=addDevicePlan&amp;planSkuId=sku109183&amp;bundleSkuId=sku48688247&amp;skuId=sku88421&amp;planType=onAccount&amp;segmentType=consumer",
+            "sashText": "",
+            "lowestPrice": "<p><strong>From &pound;32 a month</strong> with &pound;250 upfront</p>"
+        },
+        {
+            "storage": "128",
+            "colour": "Rose Gold",
+            "colour_hex": "DAADA8",
+            "phoneSku": "sku91175",
+            "plan": "<ul>     <li><b>6GB&nbsp;</b>of 4G UK data</li>     <li><strong>Unlimited</strong> UK minutes</li>     <li><strong>Unlimited</strong> UK texts</li>     <li><b>500MB&nbsp;</b>inclusive roaming data</li>      </ul>",
+            "tariff_pm": "52",
+            "tariff_up": "60",
+            "tariff_6m": "26",
+            "image": "/cs/groups/public/documents/webcontent/450x370_apple_iphone_7_rose_go.jpg",
+            "stock": {
+                "stockStatus": "hidden",
+                "stockMessage": "Hidden"
+            },
+            "stockMessage": "",
+            "desktopBundleURL": "http://shop.vodafone.co.uk/shop/pricePlans/plansHome.jsp?dlAction=addDevice&amp;planType=onAccount&amp;bundleSkuItemId=sku48688246&amp;hardwareSkuId=sku91175",
+            "mobileBundleURL": "http://shop.vodafone.co.uk/mshop/contracts-and-deals/apple-iphone-7-128gb/sku91175",
+            "bestPlanURL": "http://shop.vodafone.co.uk/shop/extras/extrasAndAccessories.jsp?dlAction=addDevicePlan&amp;planSkuId=sku109170&amp;bundleSkuId=sku48688246&amp;skuId=sku91175&amp;planType=onAccount&amp;segmentType=consumer",
+            "sashText": "",
+            "lowestPrice": "<p><strong>From &pound;37 a month</strong> with &pound;300 upfront</p>"
+        },
+        {
+            "storage": "128",
+            "colour": "Silver",
+            "colour_hex": "E9E9E9",
+            "phoneSku": "sku88443",
+            "plan": "<ul>     <li><b>6GB&nbsp;</b>of 4G UK data</li>     <li><strong>Unlimited</strong> UK minutes</li>     <li><strong>Unlimited</strong> UK texts</li>     <li><b>500MB&nbsp;</b>inclusive roaming data</li>      </ul>",
+            "tariff_pm": "52",
+            "tariff_up": "60",
+            "tariff_6m": "26",
+            "image": "/cs/groups/public/documents/webcontent/450x370_apple_iphone_7_silver.jpg",
+            "stock": {
+                "stockStatus": "hidden",
+                "stockMessage": "Hidden"
+            },
+            "stockMessage": "",
+            "desktopBundleURL": "http://shop.vodafone.co.uk/shop/pricePlans/plansHome.jsp?dlAction=addDevice&amp;planType=onAccount&amp;bundleSkuItemId=sku48688246&amp;hardwareSkuId=sku88443",
+            "mobileBundleURL": "http://shop.vodafone.co.uk/mshop/contracts-and-deals/apple-iphone-7-128gb/sku88443",
+            "bestPlanURL": "http://shop.vodafone.co.uk/shop/extras/extrasAndAccessories.jsp?dlAction=addDevicePlan&amp;planSkuId=sku109170&amp;bundleSkuId=sku48688246&amp;skuId=sku88443&amp;planType=onAccount&amp;segmentType=consumer",
+            "sashText": "",
+            "lowestPrice": "<p><strong>From &pound;37 a month</strong> with &pound;300 upfront</p>"
+        },
+        {
+            "storage": "128",
+            "colour": "Black",
+            "colour_hex": "232529",
+            "phoneSku": "sku88454",
+            "plan": "<ul>     <li><b>6GB&nbsp;</b>of 4G UK data</li>     <li><strong>Unlimited</strong> UK minutes</li>     <li><strong>Unlimited</strong> UK texts</li>     <li><b>500MB&nbsp;</b>inclusive roaming data</li>      </ul>",
+            "tariff_pm": "52",
+            "tariff_up": "60",
+            "tariff_6m": "26",
+            "image": "/cs/groups/public/documents/webcontent/450x370_apple_iphone_7_matt_bl.jpg",
+            "stock": {
+                "stockStatus": "hidden",
+                "stockMessage": "Hidden"
+            },
+            "stockMessage": "",
+            "desktopBundleURL": "http://shop.vodafone.co.uk/shop/pricePlans/plansHome.jsp?dlAction=addDevice&amp;planType=onAccount&amp;bundleSkuItemId=sku48688246&amp;hardwareSkuId=sku88454",
+            "mobileBundleURL": "http://shop.vodafone.co.uk/mshop/contracts-and-deals/apple-iphone-7-128gb/sku88454",
+            "bestPlanURL": "http://shop.vodafone.co.uk/shop/extras/extrasAndAccessories.jsp?dlAction=addDevicePlan&amp;planSkuId=sku109170&amp;bundleSkuId=sku48688246&amp;skuId=sku88454&amp;planType=onAccount&amp;segmentType=consumer",
+            "sashText": "",
+            "lowestPrice": "<p><strong>From &pound;37 a month</strong> with &pound;300 upfront</p>"
+        },
+        {
+            "storage": "128",
+            "colour": "Gold",
+            "colour_hex": "E4D8C9",
+            "phoneSku": "sku88465",
+            "plan": "<ul>     <li><b>6GB&nbsp;</b>of 4G UK data</li>     <li><strong>Unlimited</strong> UK minutes</li>     <li><strong>Unlimited</strong> UK texts</li>     <li><b>500MB&nbsp;</b>inclusive roaming data</li>      </ul>",
+            "tariff_pm": "52",
+            "tariff_up": "60",
+            "tariff_6m": "26",
+            "image": "/cs/groups/public/documents/webcontent/450x370_apple_iphone_7_gold.jpg",
+            "stock": {
+                "stockStatus": "hidden",
+                "stockMessage": "Hidden"
+            },
+            "stockMessage": "",
+            "desktopBundleURL": "http://shop.vodafone.co.uk/shop/pricePlans/plansHome.jsp?dlAction=addDevice&amp;planType=onAccount&amp;bundleSkuItemId=sku48688246&amp;hardwareSkuId=sku88465",
+            "mobileBundleURL": "http://shop.vodafone.co.uk/mshop/contracts-and-deals/apple-iphone-7-128gb/sku88465",
+            "bestPlanURL": "http://shop.vodafone.co.uk/shop/extras/extrasAndAccessories.jsp?dlAction=addDevicePlan&amp;planSkuId=sku109170&amp;bundleSkuId=sku48688246&amp;skuId=sku88465&amp;planType=onAccount&amp;segmentType=consumer",
+            "sashText": "",
+            "lowestPrice": "<p><strong>From &pound;37 a month</strong> with &pound;300 upfront</p>"
+        },
+        {
+            "storage": "128",
+            "colour": "Jet Black",
+            "colour_hex": "000000",
+            "phoneSku": "sku93353",
+            "plan": "<ul>     <li><b>6GB&nbsp;</b>of 4G UK data</li>     <li><strong>Unlimited</strong> UK minutes</li>     <li><strong>Unlimited</strong> UK texts</li>     <li><b>500MB&nbsp;</b>inclusive roaming data</li>      </ul>",
+            "tariff_pm": "52",
+            "tariff_up": "60",
+            "tariff_6m": "26",
+            "image": "/cs/groups/public/documents/webcontent/450x370_apple_iphone_7_jet_bla.jpg",
+            "stock": {
+                "stockStatus": "hidden",
+                "stockMessage": "Hidden"
+            },
+            "stockMessage": "",
+            "desktopBundleURL": "http://shop.vodafone.co.uk/shop/pricePlans/plansHome.jsp?dlAction=addDevice&amp;planType=onAccount&amp;bundleSkuItemId=sku48688246&amp;hardwareSkuId=sku93353",
+            "mobileBundleURL": "http://shop.vodafone.co.uk/mshop/contracts-and-deals/apple-iphone-7-128gb/sku93353",
+            "bestPlanURL": "http://shop.vodafone.co.uk/shop/extras/extrasAndAccessories.jsp?dlAction=addDevicePlan&amp;planSkuId=sku109170&amp;bundleSkuId=sku48688246&amp;skuId=sku93353&amp;planType=onAccount&amp;segmentType=consumer",
+            "sashText": "",
+            "lowestPrice": "<p><strong>From &pound;37 a month</strong> with &pound;300 upfront</p>"
+        },
+        {
+            "storage": "256",
+            "colour": "Rose Gold",
+            "colour_hex": "DAADA8",
+            "phoneSku": "sku91221",
+            "plan": "<ul>     <li><b>6GB&nbsp;</b>of 4G UK data</li>     <li><strong>Unlimited</strong> UK minutes</li>     <li><strong>Unlimited</strong> UK texts</li>     <li><b>500MB&nbsp;</b>inclusive roaming data</li>      </ul>",
+            "tariff_pm": "57",
+            "tariff_up": "120",
+            "tariff_6m": "28.50",
+            "image": "/cs/groups/public/documents/webcontent/450x370_apple_iphone_7_rose_go.jpg",
+            "stock": {
+                "stockStatus": "hidden",
+                "stockMessage": "Hidden"
+            },
+            "stockMessage": "",
+            "desktopBundleURL": "http://shop.vodafone.co.uk/shop/pricePlans/plansHome.jsp?dlAction=addDevice&amp;planType=onAccount&amp;bundleSkuItemId=sku48688245&amp;hardwareSkuId=sku91221",
+            "mobileBundleURL": "http://shop.vodafone.co.uk/mshop/contracts-and-deals/apple-iphone-7-256gb/sku91221",
+            "bestPlanURL": "http://shop.vodafone.co.uk/shop/extras/extrasAndAccessories.jsp?dlAction=addDevicePlan&amp;planSkuId=sku109157&amp;bundleSkuId=sku48688245&amp;skuId=sku91221&amp;planType=onAccount&amp;segmentType=consumer",
+            "sashText": "",
+            "lowestPrice": "<p><strong>From &pound;42 a month</strong> with &pound;320 upfront</p>"
+        },
+        {
+            "storage": "256",
+            "colour": "Silver",
+            "colour_hex": "E9E9E9",
+            "phoneSku": "sku91188",
+            "plan": "<ul>     <li><b>6GB&nbsp;</b>of 4G UK data</li>     <li><strong>Unlimited</strong> UK minutes</li>     <li><strong>Unlimited</strong> UK texts</li>     <li><b>500MB&nbsp;</b>inclusive roaming data</li>      </ul>",
+            "tariff_pm": "57",
+            "tariff_up": "120",
+            "tariff_6m": "28.50",
+            "image": "/cs/groups/public/documents/webcontent/450x370_apple_iphone_7_silver.jpg",
+            "stock": {
+                "stockStatus": "hidden",
+                "stockMessage": "Hidden"
+            },
+            "stockMessage": "",
+            "desktopBundleURL": "http://shop.vodafone.co.uk/shop/pricePlans/plansHome.jsp?dlAction=addDevice&amp;planType=onAccount&amp;bundleSkuItemId=sku48688245&amp;hardwareSkuId=sku91188",
+            "mobileBundleURL": "http://shop.vodafone.co.uk/mshop/contracts-and-deals/apple-iphone-7-256gb/sku91188",
+            "bestPlanURL": "http://shop.vodafone.co.uk/shop/extras/extrasAndAccessories.jsp?dlAction=addDevicePlan&amp;planSkuId=sku109157&amp;bundleSkuId=sku48688245&amp;skuId=sku91188&amp;planType=onAccount&amp;segmentType=consumer",
+            "sashText": "",
+            "lowestPrice": "<p><strong>From &pound;42 a month</strong> with &pound;320 upfront</p>"
+        },
+        {
+            "storage": "256",
+            "colour": "Black",
+            "colour_hex": "232529",
+            "phoneSku": "sku91199",
+            "plan": "<ul>     <li><b>6GB&nbsp;</b>of 4G UK data</li>     <li><strong>Unlimited</strong> UK minutes</li>     <li><strong>Unlimited</strong> UK texts</li>     <li><b>500MB&nbsp;</b>inclusive roaming data</li>      </ul>",
+            "tariff_pm": "57",
+            "tariff_up": "120",
+            "tariff_6m": "28.50",
+            "image": "/cs/groups/public/documents/webcontent/450x370_apple_iphone_7_matt_bl.jpg",
+            "stock": {
+                "stockStatus": "hidden",
+                "stockMessage": "Hidden"
+            },
+            "stockMessage": "",
+            "desktopBundleURL": "http://shop.vodafone.co.uk/shop/pricePlans/plansHome.jsp?dlAction=addDevice&amp;planType=onAccount&amp;bundleSkuItemId=sku48688245&amp;hardwareSkuId=sku91199",
+            "mobileBundleURL": "http://shop.vodafone.co.uk/mshop/contracts-and-deals/apple-iphone-7-256gb/sku91199",
+            "bestPlanURL": "http://shop.vodafone.co.uk/shop/extras/extrasAndAccessories.jsp?dlAction=addDevicePlan&amp;planSkuId=sku109157&amp;bundleSkuId=sku48688245&amp;skuId=sku91199&amp;planType=onAccount&amp;segmentType=consumer",
+            "sashText": "",
+            "lowestPrice": "<p><strong>From &pound;42 a month</strong> with &pound;320 upfront</p>"
+        },
+        {
+            "storage": "256",
+            "colour": "Gold",
+            "colour_hex": "E4D8C9",
+            "phoneSku": "sku91210",
+            "plan": "<ul>     <li><b>6GB&nbsp;</b>of 4G UK data</li>     <li><strong>Unlimited</strong> UK minutes</li>     <li><strong>Unlimited</strong> UK texts</li>     <li><b>500MB&nbsp;</b>inclusive roaming data</li>      </ul>",
+            "tariff_pm": "57",
+            "tariff_up": "120",
+            "tariff_6m": "28.50",
+            "image": "/cs/groups/public/documents/webcontent/450x370_apple_iphone_7_gold.jpg",
+            "stock": {
+                "stockStatus": "hidden",
+                "stockMessage": "Hidden"
+            },
+            "stockMessage": "",
+            "desktopBundleURL": "http://shop.vodafone.co.uk/shop/pricePlans/plansHome.jsp?dlAction=addDevice&amp;planType=onAccount&amp;bundleSkuItemId=sku48688245&amp;hardwareSkuId=sku91210",
+            "mobileBundleURL": "http://shop.vodafone.co.uk/mshop/contracts-and-deals/apple-iphone-7-256gb/sku91210",
+            "bestPlanURL": "http://shop.vodafone.co.uk/shop/extras/extrasAndAccessories.jsp?dlAction=addDevicePlan&amp;planSkuId=sku109157&amp;bundleSkuId=sku48688245&amp;skuId=sku91210&amp;planType=onAccount&amp;segmentType=consumer",
+            "sashText": "",
+            "lowestPrice": "<p><strong>From &pound;42 a month</strong> with &pound;320 upfront</p>"
+        },
+        {
+            "storage": "256",
+            "colour": "Jet Black",
+            "colour_hex": "000000",
+            "phoneSku": "sku93427",
+            "plan": "<ul>     <li><b>6GB&nbsp;</b>of 4G UK data</li>     <li><strong>Unlimited</strong> UK minutes</li>     <li><strong>Unlimited</strong> UK texts</li>     <li><b>500MB&nbsp;</b>inclusive roaming data</li>      </ul>",
+            "tariff_pm": "57",
+            "tariff_up": "120",
+            "tariff_6m": "28.50",
+            "image": "/cs/groups/public/documents/webcontent/450x370_apple_iphone_7_jet_bla.jpg",
+            "stock": {
+                "stockStatus": "hidden",
+                "stockMessage": "Hidden"
+            },
+            "stockMessage": "",
+            "desktopBundleURL": "http://shop.vodafone.co.uk/shop/pricePlans/plansHome.jsp?dlAction=addDevice&amp;planType=onAccount&amp;bundleSkuItemId=sku48688245&amp;hardwareSkuId=sku93427",
+            "mobileBundleURL": "http://shop.vodafone.co.uk/mshop/contracts-and-deals/apple-iphone-7-256gb/sku93427",
+            "bestPlanURL": "http://shop.vodafone.co.uk/shop/extras/extrasAndAccessories.jsp?dlAction=addDevicePlan&amp;planSkuId=sku109157&amp;bundleSkuId=sku48688245&amp;skuId=sku93427&amp;planType=onAccount&amp;segmentType=consumer",
+            "sashText": "",
+            "lowestPrice": "<p><strong>From &pound;42 a month</strong> with &pound;320 upfront</p>"
+        }
+    ],
+    "copy": {
+        "choose_colour": "Select colour",
+        "choose_storage": "Choose storage",
+        "see_all_bundles": "See all available bundles",
+        "storage_gb": "GB",
+        "choose_a_bundle": "Our best-selling bundle",
+        "already_a_customer": "Existing customer?",
+        "already_a_customer_desc": "<p>Looking to upgrade? You can see all the latest available devices and a full range of our Pay monthly and SIM only bundles when you register or log in to My Vodafone.</p><p>And if you want a great deal for you and your family, simply add one of our Winter Sale deals to your existing account - with 50% off existing Pay monthly and SIM only bundles for the first 6 months.</p>",
+        "see_if_eligible": "Log in to My Vodafone",
+        "see_if_eligible_url": "https://vodafone.co.uk/myvodafone/faces/upgradePlan",
+        "blog_url": "",
+        "choose_your_bundle": "Choose this bundle",
+        "bundle_copy_heading": "",
+        "marketing_text": "iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colourful iPhone display. Splash and water resistance.1 And it looks every bit as powerful as it is. This is iPhone 7."
+    }
+}

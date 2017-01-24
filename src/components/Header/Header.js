@@ -17,7 +17,7 @@ class Header extends Component {
   @observable collapseLogo = false;
 
   componentWillMount() {
-    document.onscroll = this.onScroll;
+    // document.onscroll = this.onScroll;
   }
   
 	links() {

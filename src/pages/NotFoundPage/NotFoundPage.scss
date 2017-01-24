@@ -1,0 +1,13 @@
+@import '../../assets/styles/utils/all';
+
+//COLOURS
+$intro-color: $color-alto;
+$success-color: $color-alto;
+$error-color: $color-red-berry;
+
+.wrapper {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    max-width: 800px;
+}

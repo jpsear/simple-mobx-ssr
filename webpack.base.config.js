@@ -38,12 +38,8 @@ module.exports = {
                 modules: true
               }
             },
-            {
-              loader: 'postcss-loader'
-            },
-            {
-              loader: 'sass-loader'
-            }
+            { loader: 'postcss-loader' },
+            { loader: 'sass-loader' }
           ]
         })
       },
@@ -51,11 +47,7 @@ module.exports = {
       // Images
       {
         test: /\.(png|jpg|jpeg|gif)$/,
-        loader: 'file-loader',
-        query: {
-          limit: 66,
-          name: 'images/[name].[ext]?[hash]'
-        }
+        loader: 'url-loader',
       },
 
       // SVGs
@@ -68,10 +60,6 @@ module.exports = {
       {
         test: /\.(woff|woff2|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
         loader: 'url-loader',
-        query: {
-          limit: 8192,
-          name: 'fonts/[name].[ext]?[hash]'
-        }
       },
 
     ]
@@ -81,6 +69,6 @@ module.exports = {
     new ExtractTextPlugin({
       filename: '../../build/assets/styles.css',
       allChunks: true
-    })
+    }),
   ]
 }

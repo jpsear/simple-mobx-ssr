@@ -9,7 +9,8 @@
     "watch:client": "npm run build:client -- --watch",
     "watch:server": "npm run build:server -- --watch",
     "build": "concurrently \"npm run watch:client\" \"npm run watch:server\"",
-    "serve": "nodemon build/server"
+    "serve": "nodemon build/server",
+    "testicles" : "webpack --config webpack.test.config.js"
   },
   "keywords": [],
   "author": "",
@@ -31,6 +32,7 @@
     "body-parser": "^1.16.0",
     "compression": "^1.6.2",
     "concurrently": "^3.1.0",
+    "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.26.1",
     "express": "^4.14.0",
     "extract-text-webpack-plugin": "^2.0.0-beta.4",

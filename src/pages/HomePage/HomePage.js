@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
+import CSSModules from 'react-css-modules'
 import { action } from 'mobx'
 import { Link } from 'react-router'
-import CSSModules from 'react-css-modules'
-
 
 import { Section, Spring, Heading, Tabs, TabContent, Accordion, AccordionItem, Notification, BannerGrid, HelloTitle } from '@components/Generic';
 import { Breadcrumbs, SocialBar, BusinessCustomer, PlanTable } from '@components';
@@ -17,19 +16,6 @@ import actions from '../../actions/actions'
 @CSSModules(styles)
 class HomePage extends Component {
   @action static fetchData({state}) {
-    // console.log('Fetch Data Called');
-    // fetch('https://reqres.in/api/users')
-    //     .then(function(response) {
-    //         if (response.status >= 400) {
-    //             throw new Error("Bad response from server");
-    //         }
-    //         return response.json();
-    //     })
-    //     .then(function(stories) {
-    //         console.log('Fetch Data: ', stories);
-    //         state.browse.data = stories
-    //     });
-
     state.app.title = 'Browse'
     state.browse.data = 'Loading...'
     return actions.fetchArticles(state)
@@ -41,22 +27,11 @@ class HomePage extends Component {
     })
   }
 
-
   render() {
-    console.log(this.props.state.browse.data.data);
     return (
       <section>
       This is data from the endpoint:
       { this.renderData(this.props.state.browse.data.data) }
-        
-
-
-
-
-
-
-
-
 
        <HelloTitle />
         <Breadcrumbs pages={['Home', 'Shop', 'Device']} />
