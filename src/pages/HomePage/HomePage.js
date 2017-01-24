@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { action } from 'mobx'
 import { Link } from 'react-router'
 import CSSModules from 'react-css-modules'
-require('isomorphic-fetch');
+
 
 import { Section, Spring, Heading, Tabs, TabContent, Accordion, AccordionItem, Notification, BannerGrid, HelloTitle } from '@components/Generic';
 import { Breadcrumbs, SocialBar, BusinessCustomer, PlanTable } from '@components';
@@ -10,29 +10,54 @@ import { Breadcrumbs, SocialBar, BusinessCustomer, PlanTable } from '@components
 import gutters from '@styles/generic/gutters';
 import styles from './HomePage.scss';
 
-//import { observer } from 'mobx-react'
-//@observer(["state"]) // Only required if you use or change the state outside fetchData
+import { observer, inject } from 'mobx-react'
+import actions from '../../actions/actions'
+
+@inject(["state"]) // Only required if you use or change the state outside fetchData
 @CSSModules(styles)
 class HomePage extends Component {
   @action static fetchData({state}) {
-    fetch('https://reqres.in/api/users')
-        .then(function(response) {
-            if (response.status >= 400) {
-                throw new Error("Bad response from server");
-            }
-            return response.json();
-        })
-        .then(function(stories) {
-            console.log(stories);
-            state.app.data = stories
-        });
-    state.app.title = 'Home'
+    // console.log('Fetch Data Called');
+    // fetch('https://reqres.in/api/users')
+    //     .then(function(response) {
+    //         if (response.status >= 400) {
+    //             throw new Error("Bad response from server");
+    //         }
+    //         return response.json();
+    //     })
+    //     .then(function(stories) {
+    //         console.log('Fetch Data: ', stories);
+    //         state.browse.data = stories
+    //     });
+
+    state.app.title = 'Browse'
+    state.browse.data = 'Loading...'
+    return actions.fetchArticles(state)
   }
-  
+
+  renderData(data) {
+    return data.map(item => {
+      return <div>{item.first_name}</div>
+    })
+  }
+
+
   render() {
-    console.log(this.props.state);
+    console.log(this.props.state.browse.data.data);
     return (
       <section>
+      This is data from the endpoint:
+      { this.renderData(this.props.state.browse.data.data) }
+        
+
+
+
+
+
+
+
+
+
        <HelloTitle />
         <Breadcrumbs pages={['Home', 'Shop', 'Device']} />
 
