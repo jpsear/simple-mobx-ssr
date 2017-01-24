@@ -24,7 +24,7 @@ class HomePage extends Component {
         })
         .then(function(stories) {
             console.log(stories);
-            state.data = stories
+            state.app.data = stories
         });
     state.app.title = 'Home'
   }

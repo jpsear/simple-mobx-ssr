@@ -1,8 +1,9 @@
-const path = require('path');
-var fs = require('fs');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const fs = require('fs')
+const merge = require('webpack-merge')
+const config = require('./webpack.base.config.js')
 
-var nodeModules = {};
+const nodeModules = {};
+
 fs.readdirSync('node_modules')
   .filter(function(x) {
     return ['.bin'].indexOf(x) === -1;
@@ -11,7 +12,7 @@ fs.readdirSync('node_modules')
     nodeModules[mod] = 'commonjs ' + mod;
   });
 
-module.exports = {
+module.exports = merge(config, {
   target: 'node',
 
   node: {
@@ -28,71 +29,4 @@ module.exports = {
     path: './build/server',
     filename: '[name].js',
   },
-
-	performance: {
-  	hints: false
-	},
-  
-  resolve: {
-    alias: {
-      '@components' : path.resolve(__dirname, 'src/components'),
-      '@pages' : path.resolve(__dirname, 'src/pages'),
-      '@styles' : path.resolve(__dirname, 'src/assets/styles'),
-      '@images' : path.resolve(__dirname, 'build/assets/images'),
-    },
-    extensions: ['.js', '.jsx', '.json', '.scss']
-  },
-
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: 'babel-loader'
-      },
-
-      {
-        test: /\.(css|scss)(\?.+)?$/,
-        loader: ExtractTextPlugin.extract({
-          loader: [
-            {
-              loader: 'css-loader',
-              query: {
-                localIdentName: '[name]-[local]-[hash:base64:9]',
-                modules: true
-              }
-            },
-            {
-              loader: 'postcss-loader'
-            },
-            {
-              loader: 'sass-loader'
-            }
-          ]
-        })
-      },
-
-      {
-        test: /\.(png|jpg|jpeg|gif)$/,
-        loader: 'url-loader',
-        query: {
-          limit: 66,
-          name: 'images/[name].[ext]?[hash]'
-        }
-      },
-
-      {
-        test: /\.svg$/,
-        loader: 'svg-inline-loader',
-      },
-
-    ]
-  },
-
-  plugins: [
-    new ExtractTextPlugin({
-      filename: '../../build/assets/styles.css',
-      allChunks: true
-    })
-  ]
-};
+})

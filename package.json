@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:client": "webpack --config webpack.client.config.js",
-    "build:serverOld": "BABEL_ENV=server babel src/server --out-file ./build/server/index.js",
-    "build:server": "webpack --config webpack.server.config.js --define process.env.NODE_ENV='\"server\"' --progress --colors",
-    "watch:client": "npm run build:client -- --watch --colors",
-    "watch:server": "npm run build:server -- --watch --colors",
+    "build:client": "webpack --config webpack.client.config.js --colors --progress",
+    "build:server": "webpack --config webpack.server.config.js --colors --progress --define process.env.NODE_ENV='\"server\"'",
+    "watch:client": "npm run build:client -- --watch",
+    "watch:server": "npm run build:server -- --watch",
     "build": "concurrently \"npm run watch:client\" \"npm run watch:server\"",
     "serve": "nodemon build/server"
   },
@@ -52,6 +51,7 @@
     "svg-inline-loader": "^0.7.1",
     "url-loader": "^0.5.7",
     "velocity-react": "^1.2.1",
-    "webpack": "^2.2.0-rc.3"
+    "webpack": "^2.2.0-rc.3",
+    "webpack-merge": "^2.4.0"
   }
 }
