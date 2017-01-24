@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { action } from 'mobx'
 import { Link } from 'react-router'
 import CSSModules from 'react-css-modules'
+require('isomorphic-fetch');
 
 import { Section, Spring, Heading, Tabs, TabContent, Accordion, AccordionItem, Notification, BannerGrid, HelloTitle } from '@components/Generic';
 import { Breadcrumbs, SocialBar, BusinessCustomer, PlanTable } from '@components';
@@ -14,10 +15,22 @@ import styles from './HomePage.scss';
 @CSSModules(styles)
 class HomePage extends Component {
   @action static fetchData({state}) {
+    fetch('https://reqres.in/api/users')
+        .then(function(response) {
+            if (response.status >= 400) {
+                throw new Error("Bad response from server");
+            }
+            return response.json();
+        })
+        .then(function(stories) {
+            console.log(stories);
+            state.data = stories
+        });
     state.app.title = 'Home'
   }
   
   render() {
+    console.log(this.props.state);
     return (
       <section>
        <HelloTitle />
